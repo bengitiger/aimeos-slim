@@ -41,7 +41,7 @@ return array(
 			'database' => 'slim',
 			'username' => 'root',
 			'password' => '',
-			'stmt' => array( "SET SESSION sort_buffer_size='1M'", "SET NAMES 'utf8'", "SET SESSION sql_mode='ANSI'" ),
+			'stmt' => array( "SET SESSION sort_buffer_size=1048576", "SET NAMES 'utf8'", "SET SESSION sql_mode='ANSI'" ),
 			'opt-persistent' => 0,
 			'limit' => 2,
 		),
